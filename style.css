@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 233, 203);
+}
+#logo{
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 8px;
+    left: 50px;
+}
+header{
+    height: 170px;
+    padding: 5px;
+    background-color: rgb(255, 124, 124);
+    border-radius:6px;
+}
+#iiit_title{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#national_imp{
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+}
+.navbar{
+    background-color: rgb(145, 229, 229);
+    position: sticky;
+    top: 0px;
+}
+.navbar ul{
+    overflow: auto;
+    margin-top: 0px;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    margin: 12px;
+    margin-right:70px ;
+}
+.navbar li a{
+    color: black;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: large;
+    /* background-color: rgb(75, 226, 214); */
+}
+.navbar li a:hover{
+    color: rgb(212, 0, 255);
+    background-color: rgb(255, 231, 153);
+}
+.search{
+    float: right;
+    margin: 10px;
+    margin-right:50px ;
+}
+.navbar input{
+    padding: 2px;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+#intro_h{
+    text-align: center;
+    font-size:30px;
+}
+#para_int{
+    text-align: center;
+}
+.images{
+    padding: 20px;
+    margin: auto;
+    width: 1050px;
+}
+.images h2{
+    text-align: center;
+    font-size:30px;
+}
+img{
+    width: 500px;
+    height: 250px;
+}
+
+.table h3{
+    text-align: center;
+    font-size: 30px;
+}
+table{
+    margin:auto;
+    border: 2px solid red;
+    padding: 7px;
+    background-color: rgb(250, 177, 117);
+}
+th{
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 20px;
+}
+td{
+    /* border: 2px solid brown; */
+    display: table-cell;
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 10px;
+}
+#contact{
+    background-color: #ffe26875;
+    margin-top: 30px;
+    margin:auto;
+    padding: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.contact_text{
+    text-align: center;
+    font-size: 15px;
+}
+.contactUs h3{
+    font-size: 30px;
+}
+.contactUs p{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    padding: 1px;
+    height: 48px;
+    color: white;
+    background: #ce7171;
+}
