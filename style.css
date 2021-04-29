@@ -131,6 +131,12 @@ td{
 .contactUs p{
     font-weight: bold;
 }
+.frame h2{
+    text-align: center;
+}
+.youtube_vid{
+    border:2px solid rgb(255, 136, 0);
+}
 footer{
     text-align: center;
     padding: 1px;
